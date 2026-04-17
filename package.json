@@ -1,0 +1,16 @@
+{
+  "name": "my-apps-script-project",
+  "version": "1.0.0",
+  "scripts": {
+    "push": "clasp push",
+    "pull": "clasp pull",
+    "watch": "clasp push --watch",
+    "open": "clasp open",
+    "deploy": "clasp deploy",
+    "status": "clasp status"
+  },
+  "devDependencies": {
+    "@google/clasp": "^3.3.0",
+    "@types/google-apps-script": "^2.0.8"
+  }
+}
